@@ -48,7 +48,7 @@ def hit?(current_card_total)
   end
 end
 
-# Learn.co solution for #hit?
+# Learn.co solution for #hit? great use for the until loop incase of invalid_command
 # def hit?(card_total)
 #   prompt_user
 #   input = get_user_input

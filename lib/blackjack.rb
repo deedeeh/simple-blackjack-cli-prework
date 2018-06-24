@@ -35,7 +35,6 @@ def initial_round
   return sum
 end
 
-# Check Learn.co solution for #hit?
 def hit?(current_card_total)
   # code hit? here
   prompt_user
@@ -48,6 +47,10 @@ def hit?(current_card_total)
     invalid_command
   end
 end
+
+# Learn.co solution for #hit?
+
+
 
 def invalid_command
   # code invalid_command here

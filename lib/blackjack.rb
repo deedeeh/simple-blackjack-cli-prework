@@ -35,6 +35,7 @@ def initial_round
   return sum
 end
 
+# my solution which passed the tests but not so efficient in terms of running the program
 # def hit?(current_card_total)
 #   # code hit? here
 #   prompt_user

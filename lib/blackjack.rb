@@ -35,18 +35,18 @@ def initial_round
   return sum
 end
 
-def hit?(current_card_total)
-  # code hit? here
-  prompt_user
-  user_input = get_user_input
-  if user_input == "s"
-    current_card_total
-  elsif user_input == "h"
-    current_card_total += deal_card
-  else
-    invalid_command
-  end
-end
+# def hit?(current_card_total)
+#   # code hit? here
+#   prompt_user
+#   user_input = get_user_input
+#   if user_input == "s"
+#     current_card_total
+#   elsif user_input == "h"
+#     current_card_total += deal_card
+#   else
+#     invalid_command
+#   end
+# end
 
 # Learn.co solution for #hit? great use of the until loop in case of invalid_command
 # def hit?(card_total)
